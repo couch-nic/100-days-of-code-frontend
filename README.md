@@ -51,7 +51,7 @@ HTML is really the foundation of web development. Even in the javascript-based f
 
 ### :book: Learning Areas and Ideas
 
-- Take the [Basic HTML and HTML5 section](https://learn.freecodecamp.org/) on freeCodeCamp.
+- Take the [Basic HTML and HTML5 section](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5) on freeCodeCamp.
 - HTML page structure
 - HTML elements
 - Nesting HTML elements
@@ -73,7 +73,7 @@ CSS is another essential component of web development. While it is mainly used t
 
 ### :book: Learning Areas and Ideas
 
-- Take the [Basic CSS, CSS flexbox, and CSS grid sections](https://learn.freecodecamp.org/) on freeCodeCamp.
+- Take the [Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css), [CSS flexbox](https://learn.freecodecamp.org/responsive-web-design/css-flexbox), and [CSS grid sections](https://learn.freecodecamp.org/responsive-web-design/css-grid) on freeCodeCamp.
 - In-line CSS
 - `<style>` tags
 - External CSS with `<link>`
@@ -95,7 +95,7 @@ JavaScript has become increasingly important in the front-end world. While it wa
 
 ### :book: Learning Areas and Ideas
 
-- Take the [Basic JavaScript and ES6 sections](https://learn.freecodecamp.org/) on freeCodeCamp.
+- Take the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) and [ES6 sections](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6) on freeCodeCamp.
 - `<script>` tag and placement
 - Accessing HTML elements
 - The event loop, call stack, and event queue
@@ -114,7 +114,7 @@ After you have spent some time with plain (also called "vanilla") javascript, yo
 
 ### :book: Learning Areas and Ideas
 
-- Take the [jQuery section](https://learn.freecodecamp.org/) on freeCodeCamp.
+- Take the [jQuery section](https://learn.freecodecamp.org/front-end-libraries/jquery/) on freeCodeCamp.
 - Document ready
 - Selectors
 - Toggle classes
@@ -133,7 +133,7 @@ Responsive web design is all about making web applications look and function pro
 
 ### :book: Learning Areas and Ideas
 
-- Take the [Responsive Web Design Principles section](https://learn.freecodecamp.org/) on freeCodeCamp.
+- Take the [Responsive Web Design Principles section](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles) on freeCodeCamp.
 - Media queries, breakpoints
 - Responsive images
 - Make your website responsive!
@@ -150,7 +150,7 @@ Accessibility, often written as a11y, is one of the most important topics in fro
 
 ### :book: Learning Areas and Ideas
 
-- Take the [Applied Accessibility section](https://learn.freecodecamp.org/) on freeCodeCamp.
+- Take the [Applied Accessibility section](https://learn.freecodecamp.org/responsive-web-design/applied-accessibility) on freeCodeCamp.
 - Read some content on [The A11Y Project](https://a11yproject.com/about)
 - Review their [checklist](https://a11yproject.com/checklist)
 - Update your site(s) for accessibility based on this checklist
