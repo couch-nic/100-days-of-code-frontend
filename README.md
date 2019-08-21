@@ -330,7 +330,8 @@ It is very important to set up automated testing for your front-end projects. Se
 - Add tests to your application!
 
 <a name="reactnative"></a>
-![ReactNative](https://s.put.re/e7JraY3Z.35.png)
+![ReactNative](https://s.put.re/e7JraY3Z.35.png)  
+
 React Native is an open-source mobile application framework created by Facebook.It is used to develop applications for Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities. (Source: [Wikipedia](https://en.wikipedia.org/wiki/React_Native))
 
 
