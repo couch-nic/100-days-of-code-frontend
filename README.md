@@ -4,17 +4,9 @@
 
 ---
 
-This is a somewhat opinionated curriculum for learning front-end development during #100DaysOfCode. As it covers a wide range of front-end development topics, it can be thought of as more of a "survey" style course rather than a deep dive into any one area. Ideally, your takeaway from completing this curriculum will be some familiarity with each topic and the ability to easily dive deeper in any area in the future when necessary.
+This is an opinionated curriculum for learning front-end development during #100DaysOfCode. As it covers a wide range of front-end development topics, it can be thought of as more of a "survey" style course rather than a deep dive into any one area. Ideally, your takeaway from completing this curriculum will be some familiarity with each topic and the ability to easily dive deeper in any area in the future when necessary.
 
 This curriculum was influenced significantly by Kamran Ahmed's [Modern Frontend Developer](https://medium.com/tech-tajawal/modern-frontend-developer-in-2018-4c2072fa2b9c) roadmap. Please check it out--it is excellent.
-
-**Note**: I know front-end development means a lot of different things to a lot of people! If you're a front-end developer and you think this guide could be improved, please let me know by raising an issue as described in the [Contributing](#contributing) section. Thank you!
-
-# Translations
-
-Thanks to some incredible contributors, this curriculum has been translated into the following languages!
-
-- [Russian русский](/ru) (translation by [@Ibochkarev](https://github.com/Ibochkarev) and [@JonikUl](https://github.com/JonikUl))
 
 # :calendar: Curriculum
 
@@ -33,20 +25,18 @@ The recommended day-by-day activities are as follows:
 - Days 37-39: [Git](#git)
 - Days 40-44: [Node and NPM](#node)
 - Days 45-50: [Sass](#sass)
-- Days 51-54: [Bootstrap](#bootstrap)
-- Day 55: [BEM](#bem)
-- Days 57-61: [Gulp](#gulp)
+- Days 51-54: [TailwindCSS](#tailwindcss)
+- Days 55-61: [Gulp](#gulp)
 - Days 62-65: [Webpack](#webpack)
 - Day 66: [ESLint](#eslint)
 - Days 68-83: [React](#react)
 - Days 84-89: [Redux](#redux)
 - Days 90-94: [Jest](#jest)
-- Days 95-97: [TypeScript](#typescript)
-- Days 98-100: [NextJS](#nextjs)
+- Days 95-100: [React Native](#reactnative)
 
 # :mag_right: The Details
 
-Below you can find a little information about each topic in the curriculum as well as some ideas/guidance on what to do for each. For inspiration on projects to do alongside this curriculum, see the [Project Ideas section](#project-ideas).
+Below you can find a little information about each topic in the curriculum as well as some ideas on what to do for each. For inspiration on projects to do alongside this curriculum, see the [Project Ideas section](#project-ideas).
 
 As part of the timeboxing principle, it's okay if you don't get through all of the items in the "Learning Areas and Ideas" sections. You should instead focus on getting the most you can out of the number of days assigned to each area and then move on.
 
@@ -106,7 +96,6 @@ JavaScript has become increasingly important in the front-end world. While it wa
 ### :book: Learning Areas and Ideas
 
 - Take the [Basic JavaScript and ES6 sections](https://learn.freecodecamp.org/) on freeCodeCamp.
-- Too many language fundamentals to list here!
 - `<script>` tag and placement
 - Accessing HTML elements
 - The event loop, call stack, and event queue
@@ -223,38 +212,21 @@ Sass allows you to write CSS in a more programmatic way. If you've done some CSS
 - Follow the [Learn Sass](https://sass-lang.com/guide) tutorial and/or [freeCodeCamp](https://learn.freecodecamp.org/) Sass tutorial.
 - Update your existing site to generate your CSS using Sass!
 
-<a name="bootstrap"></a>
-![Bootstrap](https://i.imgur.com/cJ21eH2.jpg)
+<a name="tailwindcss"></a>
+![TailwindCSS](https://s.put.re/Qk2zyqGs.png)
 
-\* Some alternatives: Foundation, Bulma, Materialize
-
-Bootstrap is a free and open-source front-end framework for developing websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. (Source: [Wikipedia](<https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)>))
+Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. (Source: [TailwindCSS](https://tailwindcss.com/))
 
 ### :bulb: Quick Takeaway
 
-There are many options for laying out, styling, and making your web application dynamic, but you'll find that starting with a framework helps you tremendously in getting a head start. Bootstrap is one such framework, but it is definitely far from the only option! I recommend getting familiar with one framework like this, but it's far more important to grasp HTML, CSS, and JavaScript fundamentals than it is to get caught up in any one framework.
+There are many options for laying out, styling, and making your web application dynamic, but you'll find that starting with a framework helps you tremendously in getting a head start. I recommend getting familiar with one framework like this, but it's far more important to grasp HTML, CSS, and JavaScript fundamentals than it is to get caught up in any one framework.
 
 ### :book: Learning Areas and Ideas
 
-- Learn what Bootstrap is and why you would want to use it
-- [Bootstrap 4 Crash Course (Video)](https://www.youtube.com/watch?v=hnCmSXCZEpU)
-- Complete the Bootstrap section on [freeCodeCamp](https://learn.freecodecamp.org/)
-- Refactor your site using bootstrap!
-
-<a name="bem"></a>
-![BEM](https://i.imgur.com/MCvMRQl.jpg)
-
-The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project. (Source: [css-tricks.com](https://css-tricks.com/bem-101/))
-
-### :bulb: Quick Takeaway
-
-It's important to know naming and organization systems like BEM exist and why they are used. Do some research here, but at a beginner level I wouldn't recommend devoting too much time to the subject.
-
-### :book: Learning Areas and Ideas
-
-- Read the [BEM introduction](http://getbem.com/introduction/)
-- [Why I Use BEM (Video)](https://www.youtube.com/watch?v=SLjHSVwXYq4)
-- Create a simple webpage using BEM conventions.
+- Learn what Tailwind is and why you would want to use it
+- [Tailwind Intro (Video)](https://www.youtube.com/watch?v=O3JhdXubAK8)
+- Complete the landing page tutorial on [scotch.io](https://scotch.io/tutorials/build-a-beautiful-landing-page-with-tailwind-css)
+- Refactor your site using TailwindCSS!
 
 <a name="gulp"></a>
 ![Gulp](https://i.imgur.com/KQrByqq.jpg)
@@ -357,37 +329,20 @@ It is very important to set up automated testing for your front-end projects. Se
 - If you used `create-react-app`, [Jest is already configured](https://facebook.github.io/create-react-app/docs/running-tests).
 - Add tests to your application!
 
-<a name="typescript"></a>
-![TypeScript](https://i.imgur.com/BZROJNs.jpg)
+<a name="reactnative"></a>
+![ReactNative](https://s.put.re/e7JraY3Z.35.png)
+React Native is an open-source mobile application framework created by Facebook.It is used to develop applications for Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities. (Source: [Wikipedia](https://en.wikipedia.org/wiki/React_Native))
 
-\* Alternative: Flow
-
-TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language. TypeScript is designed for development of large applications and transcompiles to JavaScript. As TypeScript is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs. TypeScript may be used to develop JavaScript applications for both client-side and server-side (Node.js) execution. (Source: [Wikipedia](https://en.wikipedia.org/wiki/TypeScript))
 
 ### :bulb: Quick Takeaway
+So far you only created solutions for the web (that may look ok on your phone). But native apps become more and more important. Instead of learning new programming languages for each platform, use React that you already learned and write cross-platform mobile applications.
 
-JavaScript is dynamically typed. However, it is a common belief that static typing (i.e., specifying variable types, classes, interfaces ahead of time) is both clearer and reduces the likelihood of defects/bugs. Regardless of how you feel on the topic, it's important to at least get a feel for a statically-typed version of JavaScript like TypeScript. Note that TypeScript compiles down to JavaScript so it can be interpreted by browsers (i.e., browsers don't natively interpret TypeScript).
-
-### :book: Learning Areas and Ideas
-
-- [Learn TypeScript in 5 minutes](https://medium.freecodecamp.org/learn-typescript-in-5-minutes-13eda868daeb)
-- [Learn TypeScript in 50 minutes (Video)](https://www.youtube.com/watch?v=WBPrJSw7yQA)
-- Optionally [create a React app with TypeScript](https://levelup.gitconnected.com/typescript-and-react-using-create-react-app-a-step-by-step-guide-to-setting-up-your-first-app-6deda70843a4)
-
-<a name="nextjs"></a>
-![NextJS](https://i.imgur.com/YNtW38J.jpg)
-
-Next.js is a minimalistic framework for server-rendered React applications. (Source: [Next.js — React Server Side Rendering Done Right](https://hackernoon.com/next-js-react-server-side-rendering-done-right-f9700078a3b6))
-
-### :bulb: Quick Takeaway
-
-Now we're getting advanced! By now you've built a React (or Vue or Angular) application that does quite a bit of work in the browser. For various reasons (e.g., SEO, concerns over client performance), you might actually want your front-end application to be rendered on the server rather than the client. That's where a framework like next.js comes in.
 
 ### :book: Learning Areas and Ideas
+- Follow this basic tutorial on [Pusher](https://pusher.com/tutorials/build-to-do-app-react-native-expo)
+- Dive deeper with this multi-step tutorial on [RisingStack](https://blog.risingstack.com/a-definitive-react-native-guide-for-react-developers/)
+- Transform your existing web app to a native app
 
-- Next.js [Getting Started](https://nextjs.org/learn/)
-- [Next.js Crash Course (Video)](https://www.youtube.com/watch?v=IkOVe40Sy0U)
-- Create a Next.js app or migrate your existing app to Next.js
 
 # But What About X?
 
