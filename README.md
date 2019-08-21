@@ -16,7 +16,8 @@ It is anticipated that everyone is at a different level of proficiency when star
 
 The recommended day-by-day activities are as follows:
 
-- Days 1-8: [HTML](#html)
+- Days 1: [Setup](#setup)
+- Day 2-8: [HTML](#html)
 - Days 9-16: [CSS](#css)
 - Days 17-24: [JavaScript Basics](#javascript)
 - Days 25-27: [jQuery](#jquery)
@@ -39,6 +40,20 @@ The recommended day-by-day activities are as follows:
 Below you can find a little information about each topic in the curriculum as well as some ideas on what to do for each. For inspiration on projects to do alongside this curriculum, see the [Project Ideas section](#project-ideas).
 
 As part of the timeboxing principle, it's okay if you don't get through all of the items in the "Learning Areas and Ideas" sections. You should instead focus on getting the most you can out of the number of days assigned to each area and then move on.
+
+
+<a name="setup"></a>
+
+### :bulb: Quick Takeaway
+
+Yes, you can create websites with HTML, CSS and Javascript without installing things on your computer. For the beginning you can use [JSFiddle](https://jsfiddle.com). But rather sooner than later, you need to develop on your own computers. The possible reasons: You want to upload your own site to a webhost, you want to modify a CSS framework or Javascript plugin or you want to use a backend tool like NodeJS. You will need a local development environment which consists of the following things: an editor for writing code, a local server to host your files locally, a text-based terminal to install coding tools and a database. My advice is to use [Laragon](https://laragon.org/download/) on Windows and [Homestead](https://laravel.com/docs/5.8/homestead) on Mac and Linux because they have everything you need. As code editor, use [Microsoft's Visual Studio Code](https://code.visualstudio.com/Download) on any platform.
+ 
+### :book: Learning Areas and Ideas
+
+- Install either [Laragon](https://laragon.org/download/) or [Microsoft's Visual Studio Code](https://code.visualstudio.com/Download)
+- Install [Microsoft's Visual Studio Code](https://code.visualstudio.com/Download)
+
+
 
 <a name="html"></a>
 ![HTML](https://i.imgur.com/O0F5XSR.jpg)
